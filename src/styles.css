@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+@font-face {
+  font-family: "Eurocat";
+  src: url("/src/fonts/EurocatVF.woff2") format("woff2-variations"),
+    url("/src/fonts/EurocatVF.woff") format("woff-variations"),
+    url("/src/fonts/EurocatVF.ttf") format("truetype-variations");
+}
+
+body {
+  background-color: #e8e8e8;
+  overflow: hidden;
+}
+
+@keyframes weight-pulse {
+  0% {
+    font-variation-settings: "grid" 75;
+  }
+  25% {
+    font-variation-settings: "grid" calc(75 + var(--random));
+  }
+  50% {
+    font-variation-settings: "grid" 100;
+  }
+  75% {
+    font-variation-settings: "grid" calc(150 + var(--random));
+  }
+  100% {
+    font-variation-settings: "grid" 100;
+  }
+}
+
+.pulsating-text {
+  font-family: "Eurocat";
+  font-size: 355px;
+  line-height: 0.8;
+  letter-spacing: -35.5px;
+  color: #faf5ed;
+  opacity: 0.9;
+  text-shadow: -0.75px 0.2px #f0f0f0, -1px 0.2px #fff, 0.75px -0.2px #b5b1aa,
+    1px -0.2px #7a7974;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 35px;
+  animation: weight-pulse 15s ease-in-out infinite;
+  --random: 125;
+}
+
+@media only screen and (max-width: 768px) {
+  .pulsating-text {
+    font-size: 325px;
+    line-height: 0.7;
+    letter-spacing: -32.5px;
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+}
+
+.desktop .pulsating-text {
+  display: block;
+}
