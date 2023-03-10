@@ -53,9 +53,8 @@ function App() {
       )}
       <div className="static-text">
         <a>
-          coming &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />
-          soon &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp;&nbsp;
+          coming &nbsp; &nbsp; <br />
+          soon &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         </a>
       </div>
     </div>

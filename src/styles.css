@@ -1,6 +1,4 @@
 .App {
-  font-family: sans-serif;
-  text-align: left;
 }
 
 @font-face {
@@ -51,12 +49,11 @@ body {
 
 @media only screen and (max-width: 768px) {
   .pulsating-text {
-    font-size: 95px;
+    font-size: 80px;
     line-height: 1;
-    letter-spacing: -9.5px;
+    letter-spacing: -8px;
     color: #f5f3ed;
-    padding-left: 15px;
-    padding-right: 5px;
+    padding-left: 10px;
     padding-top: 50px;
   }
 
@@ -70,8 +67,6 @@ body {
     line-height: 1;
     letter-spacing: -9.5px;
     color: #f5f3ed;
-    padding-left: 0px;
-    padding-right: 5px;
     padding-top: 30px;
     font-variation-settings: "grid" 100;
   }
