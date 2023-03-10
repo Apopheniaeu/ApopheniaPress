@@ -15,28 +15,21 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 768px) {
-  body {
-    background-color: #212121;
-    overflow: hidden;
-  }
-}
-
 @keyframes weight-pulse {
   0% {
-    font-variation-settings: "grid" 75;
+    font-variation-settings: "grid" 200;
   }
   25% {
-    font-variation-settings: "grid" calc(75 + var(--random));
+    font-variation-settings: "grid" calc(200 + var(--random));
   }
   50% {
-    font-variation-settings: "grid" 100;
+    font-variation-settings: "grid" 200;
   }
   75% {
-    font-variation-settings: "grid" calc(150 + var(--random));
+    font-variation-settings: "grid" calc(250 + var(--random));
   }
   100% {
-    font-variation-settings: "grid" 100;
+    font-variation-settings: "grid" 200;
   }
 }
 
@@ -52,7 +45,7 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 35px;
-  animation: weight-pulse 15s ease-in-out infinite;
+  animation: weight-pulse 12s infinite;
   --random: 125;
 }
 
@@ -67,15 +60,37 @@ body {
     padding-top: 50px;
   }
 
+  body {
+    background-color: #212121;
+    overflow: hidden;
+  }
+
   .static-text {
     font-size: 95px;
     line-height: 1;
     letter-spacing: -9.5px;
     color: #f5f3ed;
-    padding-left: 15px;
+    padding-left: 0px;
     padding-right: 5px;
-    padding-top: 50px;
+    padding-top: 30px;
     font-variation-settings: "grid" 100;
+  }
+  @keyframes weight-pulse {
+    0% {
+      font-variation-settings: "grid" 150;
+    }
+    25% {
+      font-variation-settings: "grid" 300;
+    }
+    50% {
+      font-variation-settings: "grid" 150;
+    }
+    75% {
+      font-variation-settings: "grid" 275;
+    }
+    100% {
+      font-variation-settings: "grid" 150;
+    }
   }
 }
 
