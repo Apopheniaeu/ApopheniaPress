@@ -41,7 +41,6 @@ body {
   text-shadow: -0.75px 0.2px #f0f0f0, -1px 0.2px #fff, 0.75px -0.2px #b5b1aa,
     1px -0.2px #7a7974;
   padding-left: 50px;
-  padding-right: 50px;
   padding-top: 35px;
   animation: weight-pulse 12s infinite;
   --random: 125;
@@ -49,9 +48,9 @@ body {
 
 @media only screen and (max-width: 768px) {
   .pulsating-text {
-    font-size: 80px;
+    font-size: 75px;
     line-height: 1;
-    letter-spacing: -8px;
+    letter-spacing: -7.5px;
     color: #f5f3ed;
     padding-left: 10px;
     padding-top: 50px;
@@ -63,9 +62,9 @@ body {
   }
 
   .static-text {
-    font-size: 95px;
+    font-size: 75px;
     line-height: 1;
-    letter-spacing: -9.5px;
+    letter-spacing: -7.5px;
     color: #f5f3ed;
     padding-top: 30px;
     font-variation-settings: "grid" 100;
