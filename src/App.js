@@ -58,6 +58,12 @@ function App() {
           &nbsp; &nbsp; &nbsp;
         </a>
       </div>
+      <div className="credit-text">
+        <a>
+          FONT: GILLIANE CACHIN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        </a>
+      </div>
     </div>
   );
 }

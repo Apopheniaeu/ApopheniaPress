@@ -71,6 +71,17 @@ body {
     padding-top: 30px;
     font-variation-settings: "grid" 100;
   }
+
+  .credit-text {
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: -2.5px;
+    color: #fffbe3;
+    padding-top: 300px;
+    padding-bottom: 30px;
+    text-shadow: none;
+    font-variation-settings: "grid" 100;
+  }
 }
 
 .desktop .pulsating-text {
