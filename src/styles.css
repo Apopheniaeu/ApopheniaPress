@@ -71,23 +71,6 @@ body {
     padding-top: 30px;
     font-variation-settings: "grid" 100;
   }
-  @keyframes weight-pulse {
-    0% {
-      font-variation-settings: "grid" 150;
-    }
-    25% {
-      font-variation-settings: "grid" 300;
-    }
-    50% {
-      font-variation-settings: "grid" 150;
-    }
-    75% {
-      font-variation-settings: "grid" 275;
-    }
-    100% {
-      font-variation-settings: "grid" 150;
-    }
-  }
 }
 
 .desktop .pulsating-text {
