@@ -29,7 +29,7 @@ function App() {
             href="mailto:press@apophenia.eu"
             style={{ color: "#faf5ed", textDecoration: "none" }}
           >
-            press -----
+            press-----
           </a>{" "}
           <br />
           <a
