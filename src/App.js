@@ -45,20 +45,21 @@ function App() {
             href="mailto:press@apophenia.eu"
             style={{ color: "#faf5ed", textDecoration: "none" }}
           >
-            a
-          </a>
-          <br />
-          <a
-            href="mailto:press@apophenia.eu"
-            style={{ color: "#faf5ed", textDecoration: "none" }}
-          >
-            p
+            apophenia
+            <br />
+            press &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           </a>
         </>
       )}
+      <div className="static-text">
+        <a>
+          coming &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />
+          soon &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          &nbsp; &nbsp;&nbsp;
+        </a>
+      </div>
     </div>
   );
 }
 
 export default App;
-
