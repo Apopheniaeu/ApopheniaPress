@@ -25,12 +25,7 @@ function App() {
             apophenia
           </a>{" "}
           . <br />
-          <a
-            href="mailto:press@apophenia.eu"
-            style={{ color: "#faf5ed", textDecoration: "none" }}
-          >
-            press-----
-          </a>{" "}
+          press ----
           <br />
           <a
             href="mailto:press@apophenia.eu"
