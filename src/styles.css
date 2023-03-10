@@ -54,6 +54,8 @@ body {
     color: #f5f3ed;
     padding-left: 10px;
     padding-top: 50px;
+    font-variation-settings: "grid" 225;
+    animation: none;
   }
 
   body {
