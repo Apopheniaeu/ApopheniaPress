@@ -25,7 +25,7 @@ function App() {
             apophenia
           </a>{" "}
           . <br />
-          press ----
+          press -----
           <br />
           .......................
         </>
