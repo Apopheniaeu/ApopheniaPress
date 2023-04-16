@@ -13,10 +13,6 @@ body {
   overflow: hidden;
 }
 
-:root {
-  --font-variation-settings: 200;
-}
-
 .pulsating-text {
   font-variation-settings: "grid" var(--font-variation-settings);
 }
