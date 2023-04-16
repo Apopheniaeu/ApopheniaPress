@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 
 function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     function handleResize() {
@@ -14,8 +15,19 @@ function App() {
     };
   }, []);
 
+  function handleMouseMove(event) {
+    const { pageY } = event;
+    const { innerHeight } = window;
+    const percentage = pageY / innerHeight;
+    const fontVariation = Math.round(200 + percentage * 100);
+    document.documentElement.style.setProperty(
+      "--font-variation",
+      fontVariation
+    );
+  }
+
   return (
-    <div className="pulsating-text">
+    <div className="pulsating-text" onMouseMove={handleMouseMove}>
       {screenWidth > 768 ? (
         <>
           <a
