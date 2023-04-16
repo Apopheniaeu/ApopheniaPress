@@ -20,10 +20,14 @@ function App() {
     const { innerHeight } = window;
     const percentage = pageY / innerHeight;
     const fontVariation = Math.round(200 + percentage * 100);
-    document.documentElement.style.setProperty(
-      "--font-variation",
-      fontVariation
-    );
+    document.documentElement.style.setProperty("--font-variation", fontVariation);
+    const mouseY = event.clientY;
+    const middle = window.innerHeight / 2;
+    const difference = mouseY - middle;
+    const range = middle / 2;
+    const normalizedDifference = difference / range;
+    const fontVariationInRange = Math.round(250 + 50 * normalizedDifference);
+    document.documentElement.style.setProperty("--font-variation", fontVariationInRange);
   }
 
   return (

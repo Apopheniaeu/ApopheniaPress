@@ -14,19 +14,12 @@ body {
 }
 
 :root {
-  --font-variation: 200;
+  --font-variation-settings: 200;
 }
 
-@keyframes weight-pulse {
-  0% {
-    font-variation-settings: "grid" var(--font-variation);
-  }
-  25% {
-    font-variation-settings: "grid" calc(var(--font-variation) + var(--random));
-  }
-  50% {
-    font-variation-settings
-
+.pulsating-text {
+  font-variation-settings: "grid" var(--font-variation-settings);
+}
 
 .pulsating-text {
   font-family: "Eurocat";
