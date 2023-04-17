@@ -30,43 +30,57 @@ function App() {
       style={{ fontVariationSettings: `"grid" ${fontVariation}` }}
     >
       {screenWidth > 768 ? (
+        // COMPUTER
         <>
           <a
             href="mailto:press@apophenia.eu"
             style={{ color: "#faf5ed", textDecoration: "none" }}
           >
-            apophenia
-          </a>{" "}
-          . <br />
-          press -----
-          <br />
-          .......................
+            apophenia &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+            <br />
+            press&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp;
+          </a>
+
+          <div className="static-text-bold">
+            <a>
+              COMING SOON &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;&nbsp;
+            </a>
+          </div>
+          <div className="static-text">
+            <a>FONT BY GILIANE CACHIN&nbsp; &nbsp; </a>
+          </div>
         </>
       ) : (
+        // DEVICES
         <>
-          <a
-            href="mailto:press@apophenia.eu"
-            style={{ color: "#faf5ed", textDecoration: "none" }}
-          >
-            apophenia
+          <a href="mailto:press@apophenia.eu" className="pulsating-text">
+            apophenia&nbsp; &nbsp;
             <br />
             press &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp;
           </a>
+
+          <div className="static-text">
+            <a>
+              coming&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <br />
+              soon&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp;
+            </a>
+          </div>
+
+          <div className="credit-text">
+            <a>
+              FONT: GILLIANE
+              CACHIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </a>
+          </div>
         </>
       )}
-      <div className="static-text">
-        <a>
-          coming&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />
-          soon&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp;
-        </a>
-      </div>
-      <div className="credit-text">
-        <a>
-          FONT: GILLIANE CACHIN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        </a>
-      </div>
     </div>
   );
 }

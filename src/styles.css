@@ -9,25 +9,53 @@
 }
 
 body {
-  background-color: #e8e8e8;
+  background-color: #212121;
   overflow: hidden;
 }
 
 .pulsating-text {
+  font-family: "Eurocat";
+  font-size: calc((100vw - 100px) / 5);
+  line-height: 1;
+  letter-spacing: -0.1em;
+  color: #fefaee;
+  opacity: 0.9;
+  text-shadow: -0.75px 0.2px #fc0400, -1px 0.2px #02fa0f, 0.75px -0.2px #b5b1aa,
+    1px -0.2px #7a7974;
+  position: fixed;
+  left: 50px;
+  top: 0px;
   font-variation-settings: "grid" var(--font-variation-settings);
 }
 
-.pulsating-text {
-  font-family: "Eurocat";
-  font-size: 355px;
-  line-height: 0.8;
-  letter-spacing: -35.5px;
-  color: #faf5ed;
-  opacity: 0.9;
-  text-shadow: -0.75px 0.2px #f0f0f0, -1px 0.2px #fff, 0.75px -0.2px #b5b1aa,
-    1px -0.2px #7a7974;
-  padding-left: 50px;
-  padding-top: 35px;
+.static-text {
+  font-size: calc((50vw - 50px) / 12);
+  line-height: 1.2;
+  letter-spacing: -0.1em;
+  color: #fefaee;
+  padding-right: 50%;
+  font-variation-settings: "grid" 50;
+  text-shadow: none;
+  position: fixed;
+  bottom: calc(0 * 1.2em + 50px); /* 0 line heights + 50px */
+  left: 50px;
+}
+
+.static-text-bold {
+  font-size: calc((50vw - 50px) / 12);
+  line-height: 1.2;
+  letter-spacing: -0.1em;
+  color: #fefaee;
+  padding-right: 50%;
+  font-variation-settings: "grid" 250;
+  text-shadow: none;
+  position: fixed;
+  bottom: calc(1 * 1.2em + 50px); /* 1 line heights + 50px */
+  left: 50px;
+}
+
+:root {
+  --font-variation-settings: 200;
 }
 
 @media only screen and (max-width: 768px) {
@@ -35,11 +63,10 @@ body {
     font-size: 75px;
     line-height: 1;
     letter-spacing: -7.5px;
-    color: #fcf7d4;
+    color: #fefaee;
     padding-left: 10px;
     padding-top: 25px;
-    font-variation-settings: "grid" 225;
-    animation: none;
+    font-variation-settings: "grid" 200;
   }
 
   body {
@@ -51,16 +78,18 @@ body {
     font-size: 75px;
     line-height: 1;
     letter-spacing: -7.5px;
-    color: #fffbe3;
+    color: #fefaee;
     padding-top: 30px;
+    padding-right: 30px;
     font-variation-settings: "grid" 100;
+    bottom: 50px;
   }
 
   .credit-text {
     font-size: 25px;
     line-height: 1;
     letter-spacing: -2.5px;
-    color: #fffbe3;
+    color: #fefaee;
     padding-top: 200px;
     padding-bottom: 30px;
     text-shadow: none;
