@@ -60,11 +60,12 @@ body {
 
 @media only screen and (max-width: 768px) {
   .pulsating-text {
-    font-size: calc((100vw - 20px) / 5);
+    font-size: calc((100vw - 40px) / 4.625);
     line-height: 1;
-    letter-spacing: -7.5px;
+    letter-spacing: -0.1em;
     color: #fefaee;
-    padding-left: 10px;
+    position: fixed;
+    left: 20px;
     padding-top: 25px;
     font-variation-settings: "grid" 200;
   }
@@ -75,23 +76,25 @@ body {
   }
 
   .static-text {
-    font-size: 75px;
+    text-align: right;
+    font-size: calc((100vw - 20px) / 5);
     line-height: 1;
-    letter-spacing: -7.5px;
+    letter-spacing: -0.1em;
     color: #fefaee;
-    padding-top: 30px;
-    padding-right: 30px;
+    position: fixed;
+    left: 20px;
+    padding-right: 20;
     font-variation-settings: "grid" 100;
-    bottom: 50px;
+    top: calc(2 * 1.2em + 0px); /* 0 line heights + 50px */
   }
 
   .credit-text {
-    font-size: 25px;
+    font-size: calc((100vw - 40px) / 15);
     line-height: 1;
     letter-spacing: -2.5px;
     color: #fefaee;
-    padding-top: 200px;
-    padding-bottom: 30px;
+    position: fixed;
+    bottom: 30px;
     text-shadow: none;
     font-variation-settings: "grid" 100;
   }

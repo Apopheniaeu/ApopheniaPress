@@ -58,25 +58,23 @@ function App() {
         // DEVICES
         <>
           <a href="mailto:press@apophenia.eu" className="pulsating-text">
-            apophenia&nbsp; &nbsp;
+            apophenia &nbsp; &nbsp;
             <br />
-            press &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            &nbsp;
+            press&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp;
           </a>
 
-          <div className="static-text">
-            <a>
-              coming&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <br />
-              soon&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              &nbsp; &nbsp; &nbsp; &nbsp;
-            </a>
-          </div>
+          <a className="static-text">
+            coming
+            <br />
+            soon
+          </a>
 
           <div className="credit-text">
             <a>
-              FONT: GILLIANE
-              CACHIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              FONT: GILLIANE CACHIN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              &nbsp;
             </a>
           </div>
         </>
