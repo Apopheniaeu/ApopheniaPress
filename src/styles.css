@@ -37,7 +37,7 @@ body {
   font-variation-settings: "grid" 50;
   text-shadow: none;
   position: fixed;
-  bottom: calc(1 * 1.2em + 50px); /* 0 line heights + 50px */
+  bottom: calc(0 * 1.2em + 50px); /* 0 line heights + 50px */
   left: 50px;
 }
 
@@ -50,7 +50,7 @@ body {
   font-variation-settings: "grid" 250;
   text-shadow: none;
   position: fixed;
-  bottom: calc(0 * 1.2em + 50px); /* 1 line heights + 50px */
+  bottom: calc(1 * 1.2em + 50px); /* 1 line heights + 50px */
   left: 50px;
 }
 
