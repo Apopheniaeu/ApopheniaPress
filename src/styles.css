@@ -55,7 +55,7 @@ body {
 }
 
 :root {
-  --font-variation-settings: 200;
+  --font-variation-settings: 150;
 }
 
 @media only screen and (max-width: 768px) {

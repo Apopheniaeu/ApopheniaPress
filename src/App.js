@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const [fontVariation, setFontVariation] = useState(250);
+  const [fontVariation, setFontVariation] = useState(200);
 
   useEffect(() => {
     function handleResize() {
@@ -19,7 +19,7 @@ function App() {
     const { pageY } = event;
     const { innerHeight } = window;
     const percentage = pageY / innerHeight;
-    const newFontVariation = Math.round(200 + percentage * 100);
+    const newFontVariation = Math.round(150 + percentage * 175);
     setFontVariation(newFontVariation);
   }
 
