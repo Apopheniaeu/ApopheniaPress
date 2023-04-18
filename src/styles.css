@@ -29,7 +29,7 @@ body {
 }
 
 .static-text {
-  font-size: calc((50vw - 50px) / 12);
+  font-size: calc((50vw - 55px) / 12);
   line-height: 1.2;
   letter-spacing: -0.1em;
   color: #fefaee;
@@ -37,12 +37,12 @@ body {
   font-variation-settings: "grid" 50;
   text-shadow: none;
   position: fixed;
+  left: 55px;
   bottom: calc(0 * 1.2em + 50px); /* 0 line heights + 50px */
-  left: 50px;
 }
 
 .static-text-bold {
-  font-size: calc((50vw - 50px) / 12);
+  font-size: calc((50vw - 55px) / 12);
   line-height: 1.2;
   letter-spacing: -0.1em;
   color: #fefaee;
@@ -50,8 +50,8 @@ body {
   font-variation-settings: "grid" 250;
   text-shadow: none;
   position: fixed;
+  left: 55px;
   bottom: calc(1 * 1.2em + 50px); /* 1 line heights + 50px */
-  left: 50px;
 }
 
 :root {
@@ -91,10 +91,11 @@ body {
   .credit-text {
     font-size: calc((100vw - 40px) / 15);
     line-height: 1;
-    letter-spacing: -2.5px;
+    letter-spacing: -0.1em;
     color: #fefaee;
     position: fixed;
     bottom: 30px;
+    left: 25px;
     text-shadow: none;
     font-variation-settings: "grid" 100;
   }
