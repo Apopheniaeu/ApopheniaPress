@@ -61,7 +61,7 @@ function App() {
             apophenia &nbsp; &nbsp;
             <br />
             press&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            &nbsp; &nbsp;&nbsp;
+            &nbsp; &nbsp;
           </a>
 
           <a className="static-text">
