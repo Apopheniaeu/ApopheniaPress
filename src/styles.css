@@ -37,7 +37,7 @@ body {
   font-variation-settings: "grid" 50;
   text-shadow: none;
   position: fixed;
-  left: 55px;
+  left: 62px;
   bottom: calc(0 * 1.2em + 50px); /* 0 line heights + 50px */
 }
 
@@ -50,7 +50,7 @@ body {
   font-variation-settings: "grid" 250;
   text-shadow: none;
   position: fixed;
-  left: 55px;
+  left: 62px;
   bottom: calc(1 * 1.2em + 50px); /* 1 line heights + 50px */
 }
 
@@ -89,7 +89,7 @@ body {
   }
 
   .credit-text {
-    font-size: calc((100vw - 40px) / 15);
+    font-size: calc((100vw - 40px) / 14);
     line-height: 1;
     letter-spacing: -0.1em;
     color: #fefaee;
