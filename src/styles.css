@@ -13,6 +13,10 @@ body {
   overflow: hidden;
 }
 
+::selection {
+  background-color: transparent;
+}
+
 .pulsating-text {
   font-family: "Eurocat";
   font-size: calc((100vw - 100px) / 5);
